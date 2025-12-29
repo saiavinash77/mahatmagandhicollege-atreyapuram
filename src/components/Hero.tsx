@@ -41,14 +41,28 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-        <div className="relative h-56 sm:h-72 md:h-96 lg:h-full overflow-hidden">
-          <div className="absolute inset-0 bg-gradient-to-l from-transparent to-slate-700/20"></div>
-          <img
-            className="h-full w-full object-cover rounded-l-3xl shadow-2xl"
-            src="/lovable-uploads/688d0d39-973d-44b2-95da-ed63a789eb4b.png"
-            alt="Mahatma Gandhi College Campus"
-          />
+      <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 flex items-center justify-center p-4 lg:p-8">
+        <div className="relative h-56 sm:h-72 md:h-96 lg:h-[85%] w-full max-w-2xl">
+          {/* Decorative frame */}
+          <div className="absolute -inset-2 bg-gradient-to-br from-blue-400/30 via-indigo-500/20 to-cyan-400/30 rounded-2xl blur-sm"></div>
+          <div className="absolute -inset-1 bg-white/10 rounded-2xl"></div>
+          
+          {/* Main image container */}
+          <div className="relative h-full w-full rounded-xl overflow-hidden shadow-2xl ring-1 ring-white/20">
+            <img
+              className="h-full w-full object-cover"
+              src="/lovable-uploads/688d0d39-973d-44b2-95da-ed63a789eb4b.png"
+              alt="Mahatma Gandhi College Campus"
+            />
+            {/* Subtle overlay for better blending */}
+            <div className="absolute inset-0 bg-gradient-to-t from-indigo-900/20 via-transparent to-blue-900/10"></div>
+          </div>
+          
+          {/* Corner accents */}
+          <div className="absolute -top-1 -left-1 w-8 h-8 border-t-2 border-l-2 border-blue-300/50 rounded-tl-lg"></div>
+          <div className="absolute -top-1 -right-1 w-8 h-8 border-t-2 border-r-2 border-blue-300/50 rounded-tr-lg"></div>
+          <div className="absolute -bottom-1 -left-1 w-8 h-8 border-b-2 border-l-2 border-blue-300/50 rounded-bl-lg"></div>
+          <div className="absolute -bottom-1 -right-1 w-8 h-8 border-b-2 border-r-2 border-blue-300/50 rounded-br-lg"></div>
         </div>
       </div>
     </div>

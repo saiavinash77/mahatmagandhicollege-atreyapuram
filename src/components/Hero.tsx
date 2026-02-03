@@ -41,28 +41,34 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 flex items-center justify-center p-4 lg:p-8">
-        <div className="relative h-56 sm:h-72 md:h-96 lg:h-[85%] w-full max-w-2xl">
-          {/* Decorative frame */}
-          <div className="absolute -inset-2 bg-gradient-to-br from-blue-400/30 via-indigo-500/20 to-cyan-400/30 rounded-2xl blur-sm"></div>
-          <div className="absolute -inset-1 bg-white/10 rounded-2xl"></div>
+      {/* Large Legacy Image Section */}
+      <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-[55%] flex items-center justify-center p-4 lg:p-0">
+        <div className="relative h-72 sm:h-96 md:h-[500px] lg:h-full w-full">
+          {/* Golden legacy frame effect */}
+          <div className="absolute inset-0 bg-gradient-to-br from-amber-400/20 via-yellow-500/10 to-amber-600/20 rounded-l-3xl"></div>
+          <div className="absolute inset-0 border-l-4 border-t-4 border-b-4 border-amber-400/30 rounded-l-3xl"></div>
           
-          {/* Main image container */}
-          <div className="relative h-full w-full rounded-xl overflow-hidden shadow-2xl ring-1 ring-white/20">
+          {/* Main image container - full height */}
+          <div className="relative h-full w-full rounded-l-3xl overflow-hidden shadow-2xl">
             <img
-              className="h-full w-full object-cover"
+              className="h-full w-full object-cover scale-105 hover:scale-100 transition-transform duration-700"
               src="/lovable-uploads/688d0d39-973d-44b2-95da-ed63a789eb4b.png"
-              alt="Mahatma Gandhi College Campus"
+              alt="Mahatma Gandhi College Campus - Established 1983"
             />
-            {/* Subtle overlay for better blending */}
-            <div className="absolute inset-0 bg-gradient-to-t from-indigo-900/20 via-transparent to-blue-900/10"></div>
+            {/* Premium overlay for depth */}
+            <div className="absolute inset-0 bg-gradient-to-l from-transparent via-transparent to-indigo-900/40"></div>
+            <div className="absolute inset-0 bg-gradient-to-t from-indigo-900/50 via-transparent to-transparent"></div>
+            
+            {/* Legacy badge */}
+            <div className="absolute bottom-6 left-6 bg-white/95 backdrop-blur-sm px-6 py-3 rounded-full shadow-xl">
+              <p className="text-indigo-900 font-bold text-lg">Est. 1983</p>
+              <p className="text-indigo-700 text-sm font-medium">40+ Years of Excellence</p>
+            </div>
           </div>
           
-          {/* Corner accents */}
-          <div className="absolute -top-1 -left-1 w-8 h-8 border-t-2 border-l-2 border-blue-300/50 rounded-tl-lg"></div>
-          <div className="absolute -top-1 -right-1 w-8 h-8 border-t-2 border-r-2 border-blue-300/50 rounded-tr-lg"></div>
-          <div className="absolute -bottom-1 -left-1 w-8 h-8 border-b-2 border-l-2 border-blue-300/50 rounded-bl-lg"></div>
-          <div className="absolute -bottom-1 -right-1 w-8 h-8 border-b-2 border-r-2 border-blue-300/50 rounded-br-lg"></div>
+          {/* Decorative corner elements */}
+          <div className="absolute top-4 left-4 w-16 h-16 border-t-4 border-l-4 border-amber-400/60 rounded-tl-2xl"></div>
+          <div className="absolute bottom-4 left-4 w-16 h-16 border-b-4 border-l-4 border-amber-400/60 rounded-bl-2xl"></div>
         </div>
       </div>
     </div>

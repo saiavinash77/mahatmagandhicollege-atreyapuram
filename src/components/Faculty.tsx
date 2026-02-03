@@ -26,15 +26,15 @@ const Faculty = () => {
             <div className="md:flex">
               <div className="md:shrink-0 bg-gradient-to-br from-orange-400 to-red-500 flex items-center justify-center p-8">
                 <div className="h-32 w-32 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center shadow-xl">
-                  <span className="text-4xl font-bold text-white drop-shadow-lg">BVR</span>
+                  <span className="text-4xl font-bold text-white drop-shadow-lg">PSR</span>
                 </div>
               </div>
               <CardContent className="p-8">
-                <h3 className="text-2xl font-bold bg-gradient-to-r from-orange-600 to-red-600 bg-clip-text text-transparent">Bezawada Venkateshwarrao Garu</h3>
-                <p className="text-lg text-blue-600 font-semibold">M.Sc, B.Sc, B.Ed</p>
-                <p className="text-sm text-gray-500 mb-4 font-medium">Principal</p>
+                <h3 className="text-2xl font-bold bg-gradient-to-r from-orange-600 to-red-600 bg-clip-text text-transparent">P.S RAJU Garu</h3>
+                <p className="text-lg text-blue-600 font-semibold">MA., MA., MA., MEd., MPhil.</p>
+                <p className="text-sm text-gray-500 mb-4 font-medium">Founder, Secretary & Correspondent</p>
                 <p className="text-gray-700 leading-relaxed">
-                  With decades of experience in education, Bezawada Venkateshwarrao Garu founded Mahatma Gandhi College with a vision to provide quality education to the youth of Atreyapuram. His dedication to educational excellence and commitment to Gandhian values forms the cornerstone of our institution.
+                  With decades of experience in education, P.S RAJU Garu founded Mahatma Gandhi College in 1983 with a vision to provide quality education to the youth of Atreyapuram. His dedication to educational excellence and commitment to Gandhian values forms the cornerstone of our institution.
                 </p>
               </CardContent>
             </div>
@@ -44,15 +44,15 @@ const Faculty = () => {
             <div className="md:flex">
               <div className="md:shrink-0 bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center p-8">
                 <div className="h-32 w-32 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center shadow-xl">
-                  <span className="text-4xl font-bold text-white drop-shadow-lg">PSR</span>
+                  <span className="text-4xl font-bold text-white drop-shadow-lg">BVR</span>
                 </div>
               </div>
               <CardContent className="p-8">
-                <h3 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">P.S RAJU Garu</h3>
-                <p className="text-lg text-blue-600 font-semibold">MA., MA., MA., MEd., MPhil.</p>
-                <p className="text-sm text-gray-500 mb-4 font-medium">Secretary & Correspondent</p>
+                <h3 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Bezawada Venkateshwarrao Garu</h3>
+                <p className="text-lg text-blue-600 font-semibold">M.Sc, B.Sc, B.Ed</p>
+                <p className="text-sm text-gray-500 mb-4 font-medium">Principal</p>
                 <p className="text-gray-700 leading-relaxed">
-                  As the Secretary & Correspondent, P.S RAJU Garu brings valuable leadership to our institution. With a focus on academic rigor and student development, he ensures that our college maintains high standards while nurturing an environment conducive to holistic growth.
+                  As the Principal, Bezawada Venkateshwarrao Garu brings valuable leadership to our institution. With a focus on academic rigor and student development, he ensures that our college maintains high standards while nurturing an environment conducive to holistic growth.
                 </p>
               </CardContent>
             </div>

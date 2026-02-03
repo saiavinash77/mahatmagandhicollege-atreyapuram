@@ -27,7 +27,7 @@ const About = () => {
               <div className="prose prose-lg max-w-none">
                 <div className="bg-white/70 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-white/20">
                   <p className="text-gray-700 leading-relaxed">
-                    Founded in 1983, Mahatma Gandhi Degree & Junior College has established itself as a premier educational institution in Atreyapuram. Under the visionary leadership of Bezawada Venkateshwararao Garu (BVR) M.Sc, B.Sc, B.Ed, and the dedicated guidance of our principal, the college has consistently maintained high academic standards.
+                    Founded in 1983, Mahatma Gandhi Degree & Junior College has established itself as a premier educational institution in Atreyapuram. Under the visionary leadership of P.S RAJU Garu (MA., MA., MA., MEd., MPhil.), and the dedicated guidance of our Principal Bezawada Venkateshwarrao Garu (BVR), the college has consistently maintained high academic standards.
                   </p>
                   <p className="mt-4 text-gray-700 leading-relaxed">
                     Our educational philosophy is rooted in the principles of Mahatma Gandhi, emphasizing not just academic excellence but also character building and social responsibility. We believe in nurturing students to become well-rounded individuals who contribute meaningfully to society.
